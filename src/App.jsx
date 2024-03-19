@@ -1,24 +1,21 @@
-import './App.css'
-import GenreMovieList from './Components/GenreMovieList'
-import Header from './Components/Header'
-import ProductionHouse from './Components/ProductionHouse'
-import Slider from './Components/Slider'
-
+import "./App.css";
+import GenreMovieList from "./Components/GenreMovieList";
+import Header from "./Components/Header";
+import ProductionHouse from "./Components/ProductionHouse";
+import Slider from "./Components/Slider";
 
 const App = () => {
   return (
-    <div className=''>
-      <Header/>
-      
-      <Slider/>
+    <div className="">
+      <Header />
 
-      <ProductionHouse/>
+      <Slider />
 
-       <GenreMovieList/>
+      <ProductionHouse />
 
-      
+      <GenreMovieList />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
